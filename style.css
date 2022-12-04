@@ -1,0 +1,93 @@
+* {
+    border: 2px solid rgba(255, 118, 118, 0.678);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+#hero,
+#footer,
+#header {
+    background-color: #1f2937;
+}
+
+#header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header > * {
+    margin: 2px 10px 2px 10px;
+}
+
+#header .empty-space {
+    margin-left: auto;
+}
+
+#header-logo-text {
+    font-size: 24px;
+    color: #f9f4f8;
+}
+
+.header-links,
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#hero{
+    display:flex;
+    justify-content: space-between;
+}
+
+#hero-subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sign-up-hero{
+    width: fit-content;
+}
+
+#hero img {
+    height: 300px;
+    width: auto;
+    align-self: flex-end;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#container-information{
+    display: flex;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-text,
+.quote-author {
+    color: #1f2937;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#calltoaction-container,
+button {
+    color: white;
+    background-color: #3882f6;
+}
