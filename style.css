@@ -1,7 +1,16 @@
 * {
-    border: 2px solid rgba(255, 118, 118, 0.678);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+}
+
+body > * {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+button {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
 }
 
 #hero,
@@ -14,6 +23,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 10px 10% 10px 10% ;
 }
 
 #header > * {
@@ -35,18 +45,19 @@
     font-size: 18px;
 }
 
-#hero{
-    display:flex;
+#hero {
+    display: flex;
     justify-content: space-between;
 }
 
-#hero-subcontainer{
+#hero-subcontainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.sign-up-hero{
+.sign-up-hero {
+    border-color: #3882f6;
     width: fit-content;
 }
 
@@ -62,8 +73,24 @@
     font-weight: bolder;
 }
 
-#container-information{
+#information-header-text {
+    text-align: center;
+}
+
+#container-information {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.information-bubbles {
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+}
+
+.information-bubbles > img {
+    border-radius: 10px;
 }
 
 .quote-section {
